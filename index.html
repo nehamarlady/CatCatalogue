@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h1>CatPhotoApp</h1>
+        <main>
+            <section>
+                <h2>Cat Photos</h2>
+                <!--paragraph contains a link-->
+                <p>Click here to view more <a href="https://unsplash.com/s/photos/cat" target="_blank">cat photos</a>.</p>
+                <a href="https://unsplash.com/s/photos/cat" target="_blank"><img src="/home/neha/Desktop/freeCodeCamp/Responsive_web_design/Catphotoapp/cat.jpg" alt="Orange Cat" height="230" width="230"></a>
+            </section>
+            <section>
+                <h2>Cat Lists</h2>
+                <h3>Things cats love:</h3>
+                    <ul>
+                        <li>cat nip</li>
+                        <li>laser pointer</li>
+                        <li>lasagna</li>
+                    </ul>
+                    <figure>
+                        <img src="/home/neha/Desktop/freeCodeCamp/Responsive_web_design/Catphotoapp/lasagna.jpg" alt="A slice of lasagna on a plate" width="230" height="230">
+                        <figcaption>Cats <em>love</em> Lasagna</figcaption>
+                    </figure>
+                <h3>Top 3 things cats hate:</h3>
+                  <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                  </ol>
+                  <figure>
+                      <img src="/home/neha/Desktop/freeCodeCamp/Responsive_web_design/Catphotoapp/catfight.jpg" alt="cats fighting" width="230" height="230">
+                      <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                  </figure>
+                    
+            </section>  
+            <section>
+                <h2>Cat Form</h2>
+                    <form action="/home/neha/Desktop/freeCodeCamp/Responsive_web_design/Catphotoapp/">
+                        <fieldset>
+                            <legend>Is your cat an indoor or outdoor cat?</legend>
+                            <label>
+                                <input checked id ="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
+                            </label>
+                            <label>
+                                <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor
+                             </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>What's your cat's personality?</legend>
+                            <input checked id ="loving" type="checkbox" name="personality" value="loving"><label for="loving"> Loving</label>
+                            <input id="lazy" type="checkbox" name="personality" value="lazy"><label for="lazy"> Lazy</label>
+                            <input type="checkbox" id="energetic" name="personality" value="energetic"><label for="energetic"> Energetic</label>
+                        </fieldset>
+                        <input required type="text" name="catphotourl" placeholder="Enter the URL">
+                        <button type="submit">Submit</button>
+
+                    </form>
+            </section>
+        
+        </main>
+        <footer>
+            <p>No Copyright-Neha_Marlady</p>
+        </footer>
+    </body>
+</html>
